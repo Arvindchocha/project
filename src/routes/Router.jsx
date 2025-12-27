@@ -23,5 +23,5 @@ export const router = createBrowserRouter(
       ],
     },
   ],
-  { basename: `/${repoName}` }
+  { basename: import.meta.env.BASE_URL }
 );
